@@ -37,6 +37,48 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="088_b">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/088_b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/Makefile&quot;  VERBOSE=1 088_b"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="088_b/fast">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/088_b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/Makefile&quot;  VERBOSE=1 088_b/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="083_b">
 				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/083_b" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug"/>
@@ -82,6 +124,9 @@
 		</Build>
 		<Unit filename="/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/083/b.cpp">
 			<Option target="083_b"/>
+		</Unit>
+		<Unit filename="/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/088/b.cpp">
+			<Option target="088_b"/>
 		</Unit>
 		<Unit filename="/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

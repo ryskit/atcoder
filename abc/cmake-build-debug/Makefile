@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 088_b
+
+# Build rule for target.
+088_b: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 088_b
+.PHONY : 088_b
+
+# fast build rule for target.
+088_b/fast:
+	$(MAKE) -f CMakeFiles/088_b.dir/build.make CMakeFiles/088_b.dir/build
+.PHONY : 088_b/fast
+
+#=============================================================================
 # Target rules for targets named 083_b
 
 # Build rule for target.
@@ -150,6 +163,33 @@ depend:
 	$(MAKE) -f CMakeFiles/083_b.dir/build.make CMakeFiles/083_b.dir/083/b.cpp.s
 .PHONY : 083/b.cpp.s
 
+088/b.o: 088/b.cpp.o
+
+.PHONY : 088/b.o
+
+# target to build an object file
+088/b.cpp.o:
+	$(MAKE) -f CMakeFiles/088_b.dir/build.make CMakeFiles/088_b.dir/088/b.cpp.o
+.PHONY : 088/b.cpp.o
+
+088/b.i: 088/b.cpp.i
+
+.PHONY : 088/b.i
+
+# target to preprocess a source file
+088/b.cpp.i:
+	$(MAKE) -f CMakeFiles/088_b.dir/build.make CMakeFiles/088_b.dir/088/b.cpp.i
+.PHONY : 088/b.cpp.i
+
+088/b.s: 088/b.cpp.s
+
+.PHONY : 088/b.s
+
+# target to generate assembly for a file
+088/b.cpp.s:
+	$(MAKE) -f CMakeFiles/088_b.dir/build.make CMakeFiles/088_b.dir/088/b.cpp.s
+.PHONY : 088/b.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -158,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... 088_b"
 	@echo "... 083_b"
 	@echo "... 083/b.o"
 	@echo "... 083/b.i"
 	@echo "... 083/b.s"
+	@echo "... 088/b.o"
+	@echo "... 088/b.i"
+	@echo "... 088/b.s"
 .PHONY : help
 
 
