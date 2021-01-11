@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named t
+
+# Build rule for target.
+t : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 t
+.PHONY : t
+
+# fast build rule for target.
+t/fast:
+	$(MAKE) -f CMakeFiles/t.dir/build.make CMakeFiles/t.dir/build
+.PHONY : t/fast
+
+#=============================================================================
+# Target rules for targets named r
+
+# Build rule for target.
+r : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 r
+.PHONY : r
+
+# fast build rule for target.
+r/fast:
+	$(MAKE) -f CMakeFiles/r.dir/build.make CMakeFiles/r.dir/build
+.PHONY : r/fast
+
+#=============================================================================
+# Target rules for targets named p
+
+# Build rule for target.
+p : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 p
+.PHONY : p
+
+# fast build rule for target.
+p/fast:
+	$(MAKE) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/build
+.PHONY : p/fast
+
+#=============================================================================
 # Target rules for targets named k
 
 # Build rule for target.
@@ -215,6 +254,19 @@ c/fast:
 .PHONY : c/fast
 
 #=============================================================================
+# Target rules for targets named s
+
+# Build rule for target.
+s : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 s
+.PHONY : s
+
+# fast build rule for target.
+s/fast:
+	$(MAKE) -f CMakeFiles/s.dir/build.make CMakeFiles/s.dir/build
+.PHONY : s/fast
+
+#=============================================================================
 # Target rules for targets named f
 
 # Build rule for target.
@@ -265,6 +317,19 @@ j : cmake_check_build_system
 j/fast:
 	$(MAKE) -f CMakeFiles/j.dir/build.make CMakeFiles/j.dir/build
 .PHONY : j/fast
+
+#=============================================================================
+# Target rules for targets named u
+
+# Build rule for target.
+u : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 u
+.PHONY : u
+
+# fast build rule for target.
+u/fast:
+	$(MAKE) -f CMakeFiles/u.dir/build.make CMakeFiles/u.dir/build
+.PHONY : u/fast
 
 #=============================================================================
 # Target rules for targets named n
@@ -670,12 +735,150 @@ o.cpp.s:
 	$(MAKE) -f CMakeFiles/o.dir/build.make CMakeFiles/o.dir/o.cpp.s
 .PHONY : o.cpp.s
 
+p.o: p.cpp.o
+
+.PHONY : p.o
+
+# target to build an object file
+p.cpp.o:
+	$(MAKE) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/p.cpp.o
+.PHONY : p.cpp.o
+
+p.i: p.cpp.i
+
+.PHONY : p.i
+
+# target to preprocess a source file
+p.cpp.i:
+	$(MAKE) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/p.cpp.i
+.PHONY : p.cpp.i
+
+p.s: p.cpp.s
+
+.PHONY : p.s
+
+# target to generate assembly for a file
+p.cpp.s:
+	$(MAKE) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/p.cpp.s
+.PHONY : p.cpp.s
+
+r.o: r.cpp.o
+
+.PHONY : r.o
+
+# target to build an object file
+r.cpp.o:
+	$(MAKE) -f CMakeFiles/r.dir/build.make CMakeFiles/r.dir/r.cpp.o
+.PHONY : r.cpp.o
+
+r.i: r.cpp.i
+
+.PHONY : r.i
+
+# target to preprocess a source file
+r.cpp.i:
+	$(MAKE) -f CMakeFiles/r.dir/build.make CMakeFiles/r.dir/r.cpp.i
+.PHONY : r.cpp.i
+
+r.s: r.cpp.s
+
+.PHONY : r.s
+
+# target to generate assembly for a file
+r.cpp.s:
+	$(MAKE) -f CMakeFiles/r.dir/build.make CMakeFiles/r.dir/r.cpp.s
+.PHONY : r.cpp.s
+
+s.o: s.cpp.o
+
+.PHONY : s.o
+
+# target to build an object file
+s.cpp.o:
+	$(MAKE) -f CMakeFiles/s.dir/build.make CMakeFiles/s.dir/s.cpp.o
+.PHONY : s.cpp.o
+
+s.i: s.cpp.i
+
+.PHONY : s.i
+
+# target to preprocess a source file
+s.cpp.i:
+	$(MAKE) -f CMakeFiles/s.dir/build.make CMakeFiles/s.dir/s.cpp.i
+.PHONY : s.cpp.i
+
+s.s: s.cpp.s
+
+.PHONY : s.s
+
+# target to generate assembly for a file
+s.cpp.s:
+	$(MAKE) -f CMakeFiles/s.dir/build.make CMakeFiles/s.dir/s.cpp.s
+.PHONY : s.cpp.s
+
+t.o: t.cpp.o
+
+.PHONY : t.o
+
+# target to build an object file
+t.cpp.o:
+	$(MAKE) -f CMakeFiles/t.dir/build.make CMakeFiles/t.dir/t.cpp.o
+.PHONY : t.cpp.o
+
+t.i: t.cpp.i
+
+.PHONY : t.i
+
+# target to preprocess a source file
+t.cpp.i:
+	$(MAKE) -f CMakeFiles/t.dir/build.make CMakeFiles/t.dir/t.cpp.i
+.PHONY : t.cpp.i
+
+t.s: t.cpp.s
+
+.PHONY : t.s
+
+# target to generate assembly for a file
+t.cpp.s:
+	$(MAKE) -f CMakeFiles/t.dir/build.make CMakeFiles/t.dir/t.cpp.s
+.PHONY : t.cpp.s
+
+u.o: u.cpp.o
+
+.PHONY : u.o
+
+# target to build an object file
+u.cpp.o:
+	$(MAKE) -f CMakeFiles/u.dir/build.make CMakeFiles/u.dir/u.cpp.o
+.PHONY : u.cpp.o
+
+u.i: u.cpp.i
+
+.PHONY : u.i
+
+# target to preprocess a source file
+u.cpp.i:
+	$(MAKE) -f CMakeFiles/u.dir/build.make CMakeFiles/u.dir/u.cpp.i
+.PHONY : u.cpp.i
+
+u.s: u.cpp.s
+
+.PHONY : u.s
+
+# target to generate assembly for a file
+u.cpp.s:
+	$(MAKE) -f CMakeFiles/u.dir/build.make CMakeFiles/u.dir/u.cpp.s
+.PHONY : u.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... t"
+	@echo "... r"
+	@echo "... p"
 	@echo "... rebuild_cache"
 	@echo "... k"
 	@echo "... l"
@@ -686,10 +889,12 @@ help:
 	@echo "... m"
 	@echo "... g"
 	@echo "... c"
+	@echo "... s"
 	@echo "... f"
 	@echo "... d"
 	@echo "... e"
 	@echo "... j"
+	@echo "... u"
 	@echo "... n"
 	@echo "... b"
 	@echo "... b.o"
@@ -734,6 +939,21 @@ help:
 	@echo "... o.o"
 	@echo "... o.i"
 	@echo "... o.s"
+	@echo "... p.o"
+	@echo "... p.i"
+	@echo "... p.s"
+	@echo "... r.o"
+	@echo "... r.i"
+	@echo "... r.s"
+	@echo "... s.o"
+	@echo "... s.i"
+	@echo "... s.s"
+	@echo "... t.o"
+	@echo "... t.i"
+	@echo "... t.s"
+	@echo "... u.o"
+	@echo "... u.i"
+	@echo "... u.s"
 .PHONY : help
 
 
