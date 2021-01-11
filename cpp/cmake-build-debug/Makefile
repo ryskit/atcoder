@@ -306,6 +306,19 @@ c/fast:
 .PHONY : c/fast
 
 #=============================================================================
+# Target rules for targets named z
+
+# Build rule for target.
+z : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 z
+.PHONY : z
+
+# fast build rule for target.
+z/fast:
+	$(MAKE) -f CMakeFiles/z.dir/build.make CMakeFiles/z.dir/build
+.PHONY : z/fast
+
+#=============================================================================
 # Target rules for targets named s
 
 # Build rule for target.
@@ -990,6 +1003,33 @@ w.cpp.s:
 	$(MAKE) -f CMakeFiles/w.dir/build.make CMakeFiles/w.dir/w.cpp.s
 .PHONY : w.cpp.s
 
+z.o: z.cpp.o
+
+.PHONY : z.o
+
+# target to build an object file
+z.cpp.o:
+	$(MAKE) -f CMakeFiles/z.dir/build.make CMakeFiles/z.dir/z.cpp.o
+.PHONY : z.cpp.o
+
+z.i: z.cpp.i
+
+.PHONY : z.i
+
+# target to preprocess a source file
+z.cpp.i:
+	$(MAKE) -f CMakeFiles/z.dir/build.make CMakeFiles/z.dir/z.cpp.i
+.PHONY : z.cpp.i
+
+z.s: z.cpp.s
+
+.PHONY : z.s
+
+# target to generate assembly for a file
+z.cpp.s:
+	$(MAKE) -f CMakeFiles/z.dir/build.make CMakeFiles/z.dir/z.cpp.s
+.PHONY : z.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -997,6 +1037,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... i"
 	@echo "... w"
 	@echo "... l"
@@ -1007,12 +1048,12 @@ help:
 	@echo "... r"
 	@echo "... p"
 	@echo "... k"
-	@echo "... edit_cache"
 	@echo "... o"
 	@echo "... h"
 	@echo "... m"
 	@echo "... g"
 	@echo "... c"
+	@echo "... z"
 	@echo "... s"
 	@echo "... f"
 	@echo "... d"
@@ -1086,6 +1127,9 @@ help:
 	@echo "... w.o"
 	@echo "... w.i"
 	@echo "... w.s"
+	@echo "... z.o"
+	@echo "... z.i"
+	@echo "... z.s"
 .PHONY : help
 
 
