@@ -111,6 +111,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named i
+
+# Build rule for target.
+i : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 i
+.PHONY : i
+
+# fast build rule for target.
+i/fast:
+	$(MAKE) -f CMakeFiles/i.dir/build.make CMakeFiles/i.dir/build
+.PHONY : i/fast
+
+#=============================================================================
+# Target rules for targets named w
+
+# Build rule for target.
+w : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 w
+.PHONY : w
+
+# fast build rule for target.
+w/fast:
+	$(MAKE) -f CMakeFiles/w.dir/build.make CMakeFiles/w.dir/build
+.PHONY : w/fast
+
+#=============================================================================
+# Target rules for targets named l
+
+# Build rule for target.
+l : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 l
+.PHONY : l
+
+# fast build rule for target.
+l/fast:
+	$(MAKE) -f CMakeFiles/l.dir/build.make CMakeFiles/l.dir/build
+.PHONY : l/fast
+
+#=============================================================================
+# Target rules for targets named v
+
+# Build rule for target.
+v : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 v
+.PHONY : v
+
+# fast build rule for target.
+v/fast:
+	$(MAKE) -f CMakeFiles/v.dir/build.make CMakeFiles/v.dir/build
+.PHONY : v/fast
+
+#=============================================================================
+# Target rules for targets named v_sample
+
+# Build rule for target.
+v_sample: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 v_sample
+.PHONY : v_sample
+
+# fast build rule for target.
+v_sample/fast:
+	$(MAKE) -f CMakeFiles/v_sample.dir/build.make CMakeFiles/v_sample.dir/build
+.PHONY : v_sample/fast
+
+#=============================================================================
+# Target rules for targets named n
+
+# Build rule for target.
+n : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 n
+.PHONY : n
+
+# fast build rule for target.
+n/fast:
+	$(MAKE) -f CMakeFiles/n.dir/build.make CMakeFiles/n.dir/build
+.PHONY : n/fast
+
+#=============================================================================
 # Target rules for targets named t
 
 # Build rule for target.
@@ -161,32 +239,6 @@ k : cmake_check_build_system
 k/fast:
 	$(MAKE) -f CMakeFiles/k.dir/build.make CMakeFiles/k.dir/build
 .PHONY : k/fast
-
-#=============================================================================
-# Target rules for targets named l
-
-# Build rule for target.
-l : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 l
-.PHONY : l
-
-# fast build rule for target.
-l/fast:
-	$(MAKE) -f CMakeFiles/l.dir/build.make CMakeFiles/l.dir/build
-.PHONY : l/fast
-
-#=============================================================================
-# Target rules for targets named i
-
-# Build rule for target.
-i : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 i
-.PHONY : i
-
-# fast build rule for target.
-i/fast:
-	$(MAKE) -f CMakeFiles/i.dir/build.make CMakeFiles/i.dir/build
-.PHONY : i/fast
 
 #=============================================================================
 # Target rules for targets named o
@@ -330,19 +382,6 @@ u : cmake_check_build_system
 u/fast:
 	$(MAKE) -f CMakeFiles/u.dir/build.make CMakeFiles/u.dir/build
 .PHONY : u/fast
-
-#=============================================================================
-# Target rules for targets named n
-
-# Build rule for target.
-n : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 n
-.PHONY : n
-
-# fast build rule for target.
-n/fast:
-	$(MAKE) -f CMakeFiles/n.dir/build.make CMakeFiles/n.dir/build
-.PHONY : n/fast
 
 #=============================================================================
 # Target rules for targets named b
@@ -870,19 +909,104 @@ u.cpp.s:
 	$(MAKE) -f CMakeFiles/u.dir/build.make CMakeFiles/u.dir/u.cpp.s
 .PHONY : u.cpp.s
 
+v.o: v.cpp.o
+
+.PHONY : v.o
+
+# target to build an object file
+v.cpp.o:
+	$(MAKE) -f CMakeFiles/v.dir/build.make CMakeFiles/v.dir/v.cpp.o
+.PHONY : v.cpp.o
+
+v.i: v.cpp.i
+
+.PHONY : v.i
+
+# target to preprocess a source file
+v.cpp.i:
+	$(MAKE) -f CMakeFiles/v.dir/build.make CMakeFiles/v.dir/v.cpp.i
+.PHONY : v.cpp.i
+
+v.s: v.cpp.s
+
+.PHONY : v.s
+
+# target to generate assembly for a file
+v.cpp.s:
+	$(MAKE) -f CMakeFiles/v.dir/build.make CMakeFiles/v.dir/v.cpp.s
+.PHONY : v.cpp.s
+
+v_sample.o: v_sample.cpp.o
+
+.PHONY : v_sample.o
+
+# target to build an object file
+v_sample.cpp.o:
+	$(MAKE) -f CMakeFiles/v_sample.dir/build.make CMakeFiles/v_sample.dir/v_sample.cpp.o
+.PHONY : v_sample.cpp.o
+
+v_sample.i: v_sample.cpp.i
+
+.PHONY : v_sample.i
+
+# target to preprocess a source file
+v_sample.cpp.i:
+	$(MAKE) -f CMakeFiles/v_sample.dir/build.make CMakeFiles/v_sample.dir/v_sample.cpp.i
+.PHONY : v_sample.cpp.i
+
+v_sample.s: v_sample.cpp.s
+
+.PHONY : v_sample.s
+
+# target to generate assembly for a file
+v_sample.cpp.s:
+	$(MAKE) -f CMakeFiles/v_sample.dir/build.make CMakeFiles/v_sample.dir/v_sample.cpp.s
+.PHONY : v_sample.cpp.s
+
+w.o: w.cpp.o
+
+.PHONY : w.o
+
+# target to build an object file
+w.cpp.o:
+	$(MAKE) -f CMakeFiles/w.dir/build.make CMakeFiles/w.dir/w.cpp.o
+.PHONY : w.cpp.o
+
+w.i: w.cpp.i
+
+.PHONY : w.i
+
+# target to preprocess a source file
+w.cpp.i:
+	$(MAKE) -f CMakeFiles/w.dir/build.make CMakeFiles/w.dir/w.cpp.i
+.PHONY : w.cpp.i
+
+w.s: w.cpp.s
+
+.PHONY : w.s
+
+# target to generate assembly for a file
+w.cpp.s:
+	$(MAKE) -f CMakeFiles/w.dir/build.make CMakeFiles/w.dir/w.cpp.s
+.PHONY : w.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
+	@echo "... i"
+	@echo "... w"
+	@echo "... l"
+	@echo "... v"
+	@echo "... v_sample"
+	@echo "... n"
 	@echo "... t"
 	@echo "... r"
 	@echo "... p"
-	@echo "... rebuild_cache"
 	@echo "... k"
-	@echo "... l"
-	@echo "... i"
 	@echo "... edit_cache"
 	@echo "... o"
 	@echo "... h"
@@ -895,7 +1019,6 @@ help:
 	@echo "... e"
 	@echo "... j"
 	@echo "... u"
-	@echo "... n"
 	@echo "... b"
 	@echo "... b.o"
 	@echo "... b.i"
@@ -954,6 +1077,15 @@ help:
 	@echo "... u.o"
 	@echo "... u.i"
 	@echo "... u.s"
+	@echo "... v.o"
+	@echo "... v.i"
+	@echo "... v.s"
+	@echo "... v_sample.o"
+	@echo "... v_sample.i"
+	@echo "... v_sample.s"
+	@echo "... w.o"
+	@echo "... w.i"
+	@echo "... w.s"
 .PHONY : help
 
 

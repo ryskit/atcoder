@@ -17,6 +17,280 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="i">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/i" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 i"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="i/fast">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/i" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 i/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="w">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/w" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 w"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="w/fast">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/w" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 w/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="l">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/l" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 l"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="l/fast">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/l" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 l/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="v">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/v" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 v"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="v/fast">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/v" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 v/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="v_sample">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/v_sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 v_sample"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="v_sample/fast">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/v_sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 v_sample/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="n">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/n" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 n"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="n/fast">
+				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/n" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 n/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="t">
 				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/t" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
@@ -149,16 +423,6 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="k">
 				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/k" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
@@ -198,94 +462,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 k/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="l">
-				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/l" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 l"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="l/fast">
-				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/l" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 l/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="i">
-				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/i" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 i"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="i/fast">
-				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/i" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 i/fast"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -785,50 +961,6 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="n">
-				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/n" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 n"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="n/fast">
-				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/n" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/./includes"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 n/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="b">
 				<Option output="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug/b" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/cmake-build-debug"/>
@@ -930,6 +1062,15 @@
 		</Unit>
 		<Unit filename="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/u.cpp">
 			<Option target="u"/>
+		</Unit>
+		<Unit filename="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/v.cpp">
+			<Option target="v"/>
+		</Unit>
+		<Unit filename="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/v_sample.cpp">
+			<Option target="v_sample"/>
+		</Unit>
+		<Unit filename="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/w.cpp">
+			<Option target="w"/>
 		</Unit>
 		<Unit filename="/Users/ryskit/dev/src/github.com/ryskit/atcoder/cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
