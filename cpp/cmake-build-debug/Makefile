@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named aa
+
+# Build rule for target.
+aa: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aa
+.PHONY : aa
+
+# fast build rule for target.
+aa/fast:
+	$(MAKE) -f CMakeFiles/aa.dir/build.make CMakeFiles/aa.dir/build
+.PHONY : aa/fast
+
+#=============================================================================
 # Target rules for targets named i
 
 # Build rule for target.
@@ -371,6 +384,19 @@ e/fast:
 .PHONY : e/fast
 
 #=============================================================================
+# Target rules for targets named ab
+
+# Build rule for target.
+ab: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ab
+.PHONY : ab
+
+# fast build rule for target.
+ab/fast:
+	$(MAKE) -f CMakeFiles/ab.dir/build.make CMakeFiles/ab.dir/build
+.PHONY : ab/fast
+
+#=============================================================================
 # Target rules for targets named j
 
 # Build rule for target.
@@ -408,6 +434,60 @@ b : cmake_check_build_system
 b/fast:
 	$(MAKE) -f CMakeFiles/b.dir/build.make CMakeFiles/b.dir/build
 .PHONY : b/fast
+
+aa.o: aa.cpp.o
+
+.PHONY : aa.o
+
+# target to build an object file
+aa.cpp.o:
+	$(MAKE) -f CMakeFiles/aa.dir/build.make CMakeFiles/aa.dir/aa.cpp.o
+.PHONY : aa.cpp.o
+
+aa.i: aa.cpp.i
+
+.PHONY : aa.i
+
+# target to preprocess a source file
+aa.cpp.i:
+	$(MAKE) -f CMakeFiles/aa.dir/build.make CMakeFiles/aa.dir/aa.cpp.i
+.PHONY : aa.cpp.i
+
+aa.s: aa.cpp.s
+
+.PHONY : aa.s
+
+# target to generate assembly for a file
+aa.cpp.s:
+	$(MAKE) -f CMakeFiles/aa.dir/build.make CMakeFiles/aa.dir/aa.cpp.s
+.PHONY : aa.cpp.s
+
+ab.o: ab.cpp.o
+
+.PHONY : ab.o
+
+# target to build an object file
+ab.cpp.o:
+	$(MAKE) -f CMakeFiles/ab.dir/build.make CMakeFiles/ab.dir/ab.cpp.o
+.PHONY : ab.cpp.o
+
+ab.i: ab.cpp.i
+
+.PHONY : ab.i
+
+# target to preprocess a source file
+ab.cpp.i:
+	$(MAKE) -f CMakeFiles/ab.dir/build.make CMakeFiles/ab.dir/ab.cpp.i
+.PHONY : ab.cpp.i
+
+ab.s: ab.cpp.s
+
+.PHONY : ab.s
+
+# target to generate assembly for a file
+ab.cpp.s:
+	$(MAKE) -f CMakeFiles/ab.dir/build.make CMakeFiles/ab.dir/ab.cpp.s
+.PHONY : ab.cpp.s
 
 b.o: b.cpp.o
 
@@ -1038,6 +1118,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... aa"
 	@echo "... i"
 	@echo "... w"
 	@echo "... l"
@@ -1058,9 +1139,16 @@ help:
 	@echo "... f"
 	@echo "... d"
 	@echo "... e"
+	@echo "... ab"
 	@echo "... j"
 	@echo "... u"
 	@echo "... b"
+	@echo "... aa.o"
+	@echo "... aa.i"
+	@echo "... aa.s"
+	@echo "... ab.o"
+	@echo "... ab.i"
+	@echo "... ab.s"
 	@echo "... b.o"
 	@echo "... b.i"
 	@echo "... b.s"
