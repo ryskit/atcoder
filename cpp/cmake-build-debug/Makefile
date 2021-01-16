@@ -254,6 +254,19 @@ k/fast:
 .PHONY : k/fast
 
 #=============================================================================
+# Target rules for targets named ac
+
+# Build rule for target.
+ac: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ac
+.PHONY : ac
+
+# fast build rule for target.
+ac/fast:
+	$(MAKE) -f CMakeFiles/ac.dir/build.make CMakeFiles/ac.dir/build
+.PHONY : ac/fast
+
+#=============================================================================
 # Target rules for targets named o
 
 # Build rule for target.
@@ -488,6 +501,33 @@ ab.s: ab.cpp.s
 ab.cpp.s:
 	$(MAKE) -f CMakeFiles/ab.dir/build.make CMakeFiles/ab.dir/ab.cpp.s
 .PHONY : ab.cpp.s
+
+ac.o: ac.cpp.o
+
+.PHONY : ac.o
+
+# target to build an object file
+ac.cpp.o:
+	$(MAKE) -f CMakeFiles/ac.dir/build.make CMakeFiles/ac.dir/ac.cpp.o
+.PHONY : ac.cpp.o
+
+ac.i: ac.cpp.i
+
+.PHONY : ac.i
+
+# target to preprocess a source file
+ac.cpp.i:
+	$(MAKE) -f CMakeFiles/ac.dir/build.make CMakeFiles/ac.dir/ac.cpp.i
+.PHONY : ac.cpp.i
+
+ac.s: ac.cpp.s
+
+.PHONY : ac.s
+
+# target to generate assembly for a file
+ac.cpp.s:
+	$(MAKE) -f CMakeFiles/ac.dir/build.make CMakeFiles/ac.dir/ac.cpp.s
+.PHONY : ac.cpp.s
 
 b.o: b.cpp.o
 
@@ -1129,6 +1169,7 @@ help:
 	@echo "... r"
 	@echo "... p"
 	@echo "... k"
+	@echo "... ac"
 	@echo "... o"
 	@echo "... h"
 	@echo "... m"
@@ -1149,6 +1190,9 @@ help:
 	@echo "... ab.o"
 	@echo "... ab.i"
 	@echo "... ab.s"
+	@echo "... ac.o"
+	@echo "... ac.i"
+	@echo "... ac.s"
 	@echo "... b.o"
 	@echo "... b.i"
 	@echo "... b.s"
