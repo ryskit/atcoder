@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(cpp)
+project(apg4b)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -32,3 +32,4 @@ add_executable(aa aa.cpp)
 add_executable(ab ab.cpp)
 add_executable(ac ac.cpp)
 add_executable(ad ad.cpp)
+add_executable(af af.cpp)
