@@ -15,3 +15,15 @@
 #include <unordered_set> // unordered_set
 #include <bitset> // bitset
 #include <cctype> // isupper, islower, isdigit, toupper, tolower
+
+template<class T> void chmin(T&a, T b) {
+    if (a > b) {
+        a = b;
+    }
+}
+
+template<class T> void chmax(T&a, T b) {
+    if (a < b) {
+        a = b;
+    }
+}
