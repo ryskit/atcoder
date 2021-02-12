@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/088/b.cpp" "/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/CMakeFiles/088_b.dir/088/b.cpp.o"
+  "/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/042/c.cpp" "/Users/ryskit/dev/src/github.com/ryskit/atcoder/abc/cmake-build-debug/CMakeFiles/042_c.dir/042/c.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
