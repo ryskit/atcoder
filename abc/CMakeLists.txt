@@ -21,6 +21,7 @@ add_executable(086_a 086/a.cpp)
 add_executable(087_b 087/b.cpp)
 
 add_executable(088_b 088/b.cpp)
+add_executable(088_b 088/c.cpp)
 
 add_executable(157_b 157/b.cpp)
 

@@ -49,7 +49,7 @@ int main() {
         Result = true;
     }
 
-    if (B[0][3] && B[1][2] && B[2][1]) {
+    if (B[0][2] && B[1][1] && B[2][0]) {
         Result = true;
     }
 
