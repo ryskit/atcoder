@@ -30,3 +30,6 @@ add_executable(089_c 089/c.cpp)
 
 add_executable(157_b 157/b.cpp)
 
+add_executable(196_a 196/a.cpp)
+add_executable(196_b 196/b.cpp)
+add_executable(196_c 196/c.cpp)
