@@ -1,4 +1,3 @@
 .idea
 .DS_Store
-apg4b/cmake-build-debug/*
-abc/cmake-build-debug/*
+*/cmake-build-debug/*
