@@ -5,6 +5,11 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(./includes)
 
+add_executable(007_a 007/a.cpp)
+add_executable(007_b 007/b.cpp)
+add_executable(007_c 007/c.cpp)
+add_executable(007_d 007/d.cpp)
+
 add_executable(042_a 042/a.cpp)
 add_executable(042_b 042/b.cpp)
 add_executable(042_c 042/c.cpp)
