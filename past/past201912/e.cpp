@@ -25,11 +25,7 @@ int main() {
             int a;
             cin >> a;
             --a;
-            vector<int> g;
             rep(x, N) {
-                if (x == a) {
-                    continue;
-                }
                 if (F[x][a]) {
                     F[a][x] = true;
                 }
@@ -42,17 +38,15 @@ int main() {
             vector<int> g;
             rep(x, N) {
                 if (F[a][x]) {
-                    g.push_back(x);
-                }
-            }
-            for (auto x = g.begin(); x != g.end(); ++x) {
-                // ユーザーxがフォローしているユーザーを探す
-                rep(y, N) {
-                    // フォローしていれば
-                    if (F[(*x)][y]) {
-                        F[a][y] = true;
+                    rep(y, N) {
+                        if (F[x][y] && y != a) {
+                            g.push_back(y);
+                        }
                     }
                 }
+            }
+            for (auto y = g.begin(); y != g.end(); ++y) {
+                F[a][(*y)] = true;
             }
         }
     }
