@@ -40,6 +40,11 @@ add_executable(088_c 088/c.cpp)
 
 add_executable(089_c 089/c.cpp)
 
+add_executable(114_a 114/a.cpp)
+add_executable(114_b 114/b.cpp)
+add_executable(114_c 114/c.cpp)
+add_executable(114_d 114/d.cpp)
+
 add_executable(157_b 157/b.cpp)
 
 add_executable(165_a 165/a.cpp)
