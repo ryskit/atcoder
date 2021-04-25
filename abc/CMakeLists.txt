@@ -14,6 +14,21 @@ add_executable(042_a 042/a.cpp)
 add_executable(042_b 042/b.cpp)
 add_executable(042_c 042/c.cpp)
 
+add_executable(043_a 043/a.cpp)
+add_executable(043_b 043/b.cpp)
+add_executable(043_c 043/c.cpp)
+add_executable(043_d 043/d.cpp)
+
+add_executable(044_a 044/a.cpp)
+add_executable(044_b 044/b.cpp)
+add_executable(044_c 044/c.cpp)
+add_executable(044_d 044/d.cpp)
+
+add_executable(045_a 045/a.cpp)
+add_executable(045_b 045/b.cpp)
+add_executable(045_c 045/c.cpp)
+add_executable(045_d 045/d.cpp)
+
 add_executable(046_a 046/a.cpp)
 add_executable(046_b 046/b.cpp)
 add_executable(046_c 046/c.cpp)
@@ -21,7 +36,20 @@ add_executable(046_d 046/d.cpp)
 add_executable(046_e 046/e.cpp)
 add_executable(046_f 046/f.cpp)
 
+add_executable(047_a 047/a.cpp)
+add_executable(047_b 047/b.cpp)
+add_executable(047_c 047/c.cpp)
+add_executable(047_d 047/d.cpp)
+
+add_executable(048_a 048/a.cpp)
+add_executable(048_b 048/b.cpp)
+add_executable(048_c 048/c.cpp)
+add_executable(048_d 048/d.cpp)
+
+add_executable(049_a 049/a.cpp)
+add_executable(049_b 049/b.cpp)
 add_executable(049_c 049/c.cpp)
+add_executable(049_d 049/d.cpp)
 
 add_executable(081_a 081/a.cpp)
 add_executable(081_b 081/b.cpp)
