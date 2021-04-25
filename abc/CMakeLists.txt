@@ -51,6 +51,11 @@ add_executable(049_b 049/b.cpp)
 add_executable(049_c 049/c.cpp)
 add_executable(049_d 049/d.cpp)
 
+add_executable(050_a 050/a.cpp)
+add_executable(050_b 050/b.cpp)
+add_executable(050_c 050/c.cpp)
+add_executable(050_d 050/d.cpp)
+
 add_executable(081_a 081/a.cpp)
 add_executable(081_b 081/b.cpp)
 
