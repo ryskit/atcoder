@@ -63,3 +63,14 @@ add_executable(197_a 197/a.cpp)
 add_executable(197_b 197/b.cpp)
 add_executable(197_c 197/c.cpp)
 add_executable(197_d 197/d.cpp)
+
+add_executable(198_a 198/a.cpp)
+add_executable(198_b 198/b.cpp)
+add_executable(198_c 198/c.cpp)
+add_executable(198_d 198/d.cpp)
+
+add_executable(199_a 199/a.cpp)
+add_executable(199_b 199/b.cpp)
+add_executable(199_c 199/c.cpp)
+add_executable(199_d 199/d.cpp)
+
