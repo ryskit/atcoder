@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(./includes)
 
 add_executable(dp_a a.cpp)
+add_executable(dp_d d.cpp)
