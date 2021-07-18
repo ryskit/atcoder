@@ -9,5 +9,4 @@ object Main extends App {
   val dsSorted = ds.sorted
   val answer = dsSorted(n / 2) - dsSorted(n / 2 - 1)
   println(answer)
-
 }
