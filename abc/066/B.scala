@@ -8,7 +8,6 @@ object Main extends App {
       val current = prev.dropRight(2)
       val len = current.length
       val (f, b) = current.splitAt(len / 2)
-      println(current, f, b)
       if (f == b) {
         (maxLength.max(current.length), current)
       } else {
