@@ -1,4 +1,5 @@
 package agc016A
+// https://atcoder.jp/contests/agc016/tasks/agc016_a
 
 object Main extends App {
   val sc = new java.util.Scanner(System.in)
