@@ -13,6 +13,5 @@ object Main extends App {
         acc + (s -> 0L)
       }
   }
-  println(acc.toSeq)
   println(acc.values.map(i => (0L to i).sum).sum)
 }
