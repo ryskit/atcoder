@@ -8,7 +8,7 @@ object Main extends App {
 
   val aCan = !s.substring(a, c).contains("##")
   val bCan = !s.substring(b, d).contains("##")
-  val sequenceDot3 = s.substring(b - 1, d + 1).contains("...")
+  val sequenceDot3 = s.substring(b - 1, math.min(n, d + 2)).contains("...")
   val ans = if (c < d) {
     aCan && bCan
   } else {
