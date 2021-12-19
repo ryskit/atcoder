@@ -1,22 +1,20 @@
-package C089
-
-import java.util.Scanner
+package abc089C
+// https://atcoder.jp/contests/abc089/tasks/abc089_c
 
 object Main extends App {
-  val scanner = new Scanner(System.in)
-  val N = scanner.nextInt
-  val list = List.fill(N)((scanner.nextInt, scanner.nextInt, scanner.nextInt))
-  val answer = ((0, 0, 0) :: list)
-    .zip(list)
-    .map({
-      case ((ct, cx, cy), (nt, nx, ny)) => {
-        val dt = nt - ct
-        val dist = (nx - cx).abs + (ny - cy).abs
-        (dt, dist)
-      }
-    })
-    .forall({
-      case (dt, dist) => dt >= dist && dt % 2 == dist % 2
-    })
-  if (answer) println("Yes") else println("No")
+  val sc = new java.util.Scanner(System.in)
+  val n = sc.nextInt
+  val names = Vector.fill(n)(sc.next).filter { s =>
+    s(0) match {
+      case 'M' => true
+      case 'A' => true
+      case 'R' => true
+      case 'C' => true
+      case 'H' => true
+      case _   => false
+    }
+  }
+  val groups = names.groupBy(_(0)).view.mapValues(_.size.toLong).toList
+  val ans = groups.combinations(3).map(_.map(_._2).product).sum
+  println(ans)
 }
