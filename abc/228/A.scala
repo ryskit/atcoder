@@ -8,7 +8,6 @@ object Main extends App {
     println(if (range.contains(x)) "Yes" else "No")
   } else {
     val range = (s until 24) ++ (0 until t)
-    println(range)
     println(if (range.contains(x)) "Yes" else "No")
   }
 }
