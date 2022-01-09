@@ -1,4 +1,4 @@
-object Main extends App {
+trait Util {
   def lcm(x: Long, y: Long): Long = {
     (x * y) / gcm(x, y)
   }
