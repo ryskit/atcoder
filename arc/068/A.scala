@@ -1,4 +1,5 @@
-package abc068A
+package arc068A
+// https://atcoder.jp/contests/arc068/tasks/arc068_a
 
 object Main extends App {
   val sc = new java.util.Scanner(System.in)
@@ -11,12 +12,4 @@ object Main extends App {
     else divideCount
 
   println(ans)
-  // 6 -> 2, 3, 4, 5
-  // 5 -> 1, 3, 4, 6
-  // 4 -> 1, 2, 5, 6
-  // 3 -> 1, 2, 5, 6
-  // 2 -> 1, 3, 4, 6
-  // 1 -> 2, 3, 4, 5
-  // 27217477801
-  // 24949354650
 }
