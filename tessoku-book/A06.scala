@@ -4,7 +4,7 @@ object Main extends App {
   val sc = new java.util.Scanner(System.in)
   val n = sc.nextInt
   val q = sc.nextInt
-  val a = Array.fill(10002)(0)
+  val a = Array.fill(100002)(0)
   (1 to n).foreach { i =>
     if (i == 1) a(i) = sc.nextInt
     else a(i) = sc.nextInt + a(i - 1)
