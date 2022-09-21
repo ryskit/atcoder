@@ -2,3 +2,8 @@
 .DS_Store
 */cmake-build-debug/*
 **/target/**
+
+
+# Added by cargo
+
+/target
