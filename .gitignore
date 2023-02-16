@@ -7,3 +7,7 @@
 # Added by cargo
 
 /target
+**/a
+**/b
+**/c
+**/d
